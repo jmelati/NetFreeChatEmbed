@@ -47,14 +47,14 @@ export const Badge = (props: Props) => {
       Powered by
       <a
         ref={liteBadge}
-        href={'https://jetbot.nl'}
+        href={'https://www.netfree.com.br'}
         target="_blank"
         rel="noopener noreferrer"
         class="lite-badge"
         id="lite-badge"
         style={{ 'font-weight': 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
       >
-        <span> JetBot</span>
+        <span> NetFree</span>
       </a>
     </span>
   );
